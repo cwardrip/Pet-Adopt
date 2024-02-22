@@ -11,7 +11,7 @@ const Details = () => {
 
     const [showModal, setShowModal] = useState(false);
     const navigate = useNavigate();
-    
+
     const [_, setAdoptedPet] = useContext(AdoptedPetContext);
     const { id } = useParams();
     const results = useQuery(["details", id], fetchPet);
