@@ -1,2 +1,2 @@
-# CITR
-React
+# Pet-Adopt App
+Using React!
